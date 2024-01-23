@@ -1,1 +1,1 @@
-export {default as Navbar, NavbarProps} from './Navbar.tsx';
+export {Navbar, NavbarProps, Divvv, type Item} from './Navbar.tsx';

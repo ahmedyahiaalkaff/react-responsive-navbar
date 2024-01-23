@@ -26,12 +26,12 @@ export default [{
     postcss({
       plugins: [
           tailwindcss(tailwindConfig)],
-      extract: 'styles.css'
+          extract: 'styles.css'
     }),
     commonjs(),
     typescript({ tsconfig: './tsconfig.json' }),
   ],
-  external: ["react", "react-dom"]
+  external: ["react", "react-dom", "tailwindcss"]
 },
   {
     input: 'dist/types/index.d.ts',
